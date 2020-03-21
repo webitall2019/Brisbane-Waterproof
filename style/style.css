@@ -24,14 +24,6 @@
   --h2-color: #1b2733
 }
 
-.btn {
-  cursor: pointer;
-  background-color: var(--cta-main-color)
-}
-
-.btn:hover {
-  background-color: var(--cta-hover-color)
-}
 
 .hide {
   opacity: 0
@@ -144,7 +136,7 @@ header {
 }
 
 .navigation .navigation__cta:hover {
-  background-color: #fff;
+  background-color: #fff!important;
   color: #000
 }
 
@@ -369,7 +361,7 @@ header {
   font-weight: 800
 }
 
-.header__buttons-block .btn:hover {
+.btn:hover {
   background-color: var(--cta-hover-color)
 }
 
@@ -876,4 +868,35 @@ footer {
   margin: 0 !important;
   padding: 0;
   font-size: 0
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* below you can change the color */
+
+/* all CTA  background-color*/
+.btn {
+  cursor: pointer;
+  background-color: #e04567!important;
+}
+
+.btn:hover {
+  background-color:#C9002e!important;
+}
+
+
+/* sections background-color */
+.header-bg-color{
+  background-color: purple!important;
+}
+.services-bg-color{
+  background-color: green!important;
+}
+.about-bg-color{
+  background-color: yellow!important;
+}
+/* banner content background-color */
+.banner__content{
+  background-image: radial-gradient(circle at 77% 47%, #005cb4, #1b2733);
+}
+.form-block-bg-color{
+  background-color: rgb(62, 112, 124)!important;
 }
